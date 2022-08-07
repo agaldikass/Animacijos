@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacijos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+
+        body{
+            background:linear-gradient(to right, black, white);
+        }
+        div{
+            width: 300px;
+            height: 200px;
+            line-height: 185px;
+            text-align: center;
+            font-size: 3em;
+            font-family:Dancing Script ;
+            color: white;
+            background: #B1E1FF;
+            margin: 50px auto;
+            border-radius: 50px;
+            transition: 1.5s;
+        }
+
+        div:hover{
+            background: #9C9EFE;
+            color: black;
+            border-radius: 200px;
+            cursor: pointer;
+            box-shadow: 10px 10px 5px 5px plum;
+            
+        }
+        div .rotate{
+            transition: all 3s;
+            transition-timing-funnction: ease-in-out;
+            
+             
+        }
+
+  
+        .rotate:hover {
+            transform: rotate(360deg);
+        }
+
+      
+  
+
+
+    </style>
+    
+</head>
+<body>
+    
+        <div class="rotate">Labas</div>
+            <img class="image" src="https://makeameme.org/media/templates/skeptical_dog.jpg" alt="dog" width="120" height="120">
+            
+    
+    
+ 
+
+</body>
+</html>
